@@ -1,0 +1,26 @@
+manhwa-site/
+  pages/
+    index.js
+    login.js
+    signup.js
+    admin.js          # Sadece admin erişimi!
+    manhwa/
+      [slug].js
+      [slug]/
+        [chapter].js
+  components/
+    ManhwaCard.js
+    Reader.js
+    StatusTag.js
+  public/
+    covers/
+      example.jpg
+    manhwa/
+      example/
+        1/
+          1.jpg
+          2.jpg
+  utils/
+    auth.js
+  package.json
+  README.md
